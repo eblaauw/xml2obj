@@ -1,18 +1,11 @@
-# big-xml -- Lightweight XML parser for really big files
+# xml2obj -- 基于big-xml
 
-A record-by-record XML reader, for [node.js](http://nodejs.org/), based on [node-expat](https://github.com/astro/node-expat).
-
-Designed for big XML files (1GB+), and low memory usage.
+用法与big-xml 一致
 
 ## Install
 
-    npm install big-xml
+    npm install xml2obj
 
-or from source:
-
-    git clone git://github.com/jahewson/node-big-xml.git
-    cd node-big-xml
-    npm link
 
 #Example
 
@@ -22,9 +15,9 @@ You must specify which XML elements should be considered as the root of a record
 example the elements Foo and Bar will be emitted as records.
 
 ```javascript
-var bigXml = require('big-xml');
+var xml = require('xml2obj');
     
-var reader = bigXml.createReader('data.xml.gz', /^(Foo|Bar)$/, { gzip: true });
+var reader = xml.createReader('data.xml.gz', /^(Foo|Bar)$/, { gzip: true });
 
 reader.on('record', function(record) {
   console.log(record);

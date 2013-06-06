@@ -1,12 +1,12 @@
 {
-  "author": "John Hewson",
-  "name": "big-xml",
-  "description": "Lightweight XML parser for really big files (uses node-expat)",
+  "author": "Jonah",
+  "name": "xml2obj",
+  "description": "XMLparser using node-xml",
   "version": "0.6.0",
-  "homepage": "https://github.com/jahewson/node-big-xml",
+  "homepage": "https://github.com/junyuecao/xml2obj.git",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jahewson/node-big-xml.git"
+    "url": "git://github.com/junyuecao/xml2obj.git"
   },
   "engines": {
     "node": ">=0.6.2"
@@ -15,7 +15,7 @@
     "type": "MIT"
   },
   "dependencies": {
-    "node-expat": ">=1.4.4"
+    "node-xml": "*"
   },
   "devDependencies": {},
   "main" : "./lib"
