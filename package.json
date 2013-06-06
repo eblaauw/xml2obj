@@ -2,7 +2,7 @@
   "author": "Jonah",
   "name": "xml2obj",
   "description": "XMLparser using node-xml",
-  "version": "0.6.0",
+  "version": "0.1.0",
   "homepage": "https://github.com/junyuecao/xml2obj.git",
   "repository": {
     "type": "git",
