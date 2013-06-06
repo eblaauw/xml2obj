@@ -1,6 +1,6 @@
-# xml2obj -- 基于big-xml
+# xml2obj -- 基于node-xml
 
-用法与big-xml 一致
+Same usage with big-xml
 
 ## Install
 
